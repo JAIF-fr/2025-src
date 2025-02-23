@@ -2,7 +2,7 @@
 #+OPTIONS: toc:nil
 #+OPTIONS: H:5
 #+EXPORT_EXCLUDE_TAGS: noexport
-#+title: JAIF 2024 -- programme
+#+title: JAIF -- programme
 
 à venir !
 
