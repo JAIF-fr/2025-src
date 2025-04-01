@@ -164,7 +164,7 @@ data-align="center" height="100" /></a>
 :END:
 
 + Vincent Beroulle  -- LCIS, Grenoble INP, Université Grenoble Alpes
-+ Guillaume Bouffard --  ANSSI, ENS
++ Guillaume Bouffard --  ANSSI
 + Damien Couroussé (organisateur local) -- CEA-List, Université Grenoble Alpes
 + Jean-Max Dutertre  -- MSE, Centre Microélectronique de Provence
 + Karine Heydemann -- Thales DIS France
