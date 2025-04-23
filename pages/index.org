@@ -46,7 +46,7 @@ L'[[./cfp.html][appel à contributions]] est détaillé sur une page dédiée.
 :CUSTOM_ID: sponsors
 :END:
 
-La journée est organisée avec le soutien de l'IMT, des [[https://www.mines-stetienne.fr][Mines de Saint-Étienne]], de l'[[https://www.irisa.fr][IRISA]] et de l'[[https://www.inria.fr][INRIA]].
+La journée est organisée avec le soutien de l'IMT, des [[https://www.mines-stetienne.fr][Mines de Saint-Étienne]], de l'[[https://www.irisa.fr][IRISA]] et de l'[[https://www.inria.fr][INRIA]], et de l'[[https://www.univ-grenoble-alpes.fr][UGA]].
 
 #+BEGIN_EXPORT html
 <center>
@@ -66,6 +66,13 @@ data-align="center" height="100" /></a>
 <img src="./media/IRISA.png"
 alt="Logo IRISA"
 title="IRISA"
+data-align="center" height="100" /></a>
+
+     
+<a href="https://www.univ-grenoble-alpes.fr">
+<img src="./media/UGA.png"
+alt="Logo UGA"
+title="UGA"
 data-align="center" height="100" /></a>
 </p>
 </center>
