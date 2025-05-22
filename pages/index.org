@@ -46,7 +46,8 @@ L'[[./cfp.html][appel à contributions]] est détaillé sur une page dédiée.
 :CUSTOM_ID: sponsors
 :END:
 
-La journée est organisée avec le soutien de l'IMT, des [[https://www.mines-stetienne.fr][Mines de Saint-Étienne]], de l'[[https://www.irisa.fr][IRISA]] et de l'[[https://www.inria.fr][INRIA]], et de l'[[https://www.univ-grenoble-alpes.fr][UGA]].
+La journée est organisée avec le soutien de l'IMT, des [[https://www.mines-stetienne.fr][Mines de Saint-Étienne]], de l'[[https://www.irisa.fr][IRISA]] et de l'[[https://www.inria.fr][INRIA]], et de l'[[https://www.univ-grenoble-alpes.fr][UGA]],
+du [[https://www.pepr-cybersecurite.fr][PEPR cybersécurité]].
 
 #+BEGIN_EXPORT html
 <center>
@@ -59,20 +60,27 @@ La journée est organisée avec le soutien de l'IMT, des [[https://www.mines-ste
 <img src="./media/Inria.jpg"
 alt="Logo INRIA"
 title="INRIA"
-data-align="center" height="100" /></a>
+data-align="center" height="80" /></a>
 
      
 <a href="https://www.irisa.fr">
 <img src="./media/IRISA.png"
 alt="Logo IRISA"
 title="IRISA"
-data-align="center" height="100" /></a>
+data-align="center" height="80" /></a>
 
      
 <a href="https://www.univ-grenoble-alpes.fr">
 <img src="./media/UGA.png"
 alt="Logo UGA"
 title="UGA"
+data-align="center" height="100" /></a>
+
+     
+<a href="https://www.pepr-cybersecurite.fr">
+<img src="./media/FR2030_Cybersecurite.png"
+alt="Logo PEPR cybersécurité"
+title="ARSENE"
 data-align="center" height="100" /></a>
 </p>
 </center>
