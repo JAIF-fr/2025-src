@@ -98,6 +98,7 @@ data-align="center" height="100" /></a>
 
 et est sponsorisée par
 l'[[https://www.ssi.gouv.fr/][ANSSI]],
+ [[https://www.brightsight.com][Brightsight]],
 [[https://www.thalesgroup.com/fr/europe/france/dis][Thales DIS Identité et Sécurité Numériques]].
 # # [[https://www.alphanov.com/produits-services/solutions-laser-test-de-circuits-integres][ALPhANOV]],
 # # [[https://www.brightsight.com][Brightsight]],
@@ -138,13 +139,11 @@ l'[[https://www.ssi.gouv.fr/][ANSSI]],
 <img src="./media/PTCC_small.jpg" alt="Logo PTCC" title="PTCC" data-align="center" height="100" /></a>
 -->
 
-<!--
-
-
+     
 <a href="https://www.brightsight.com">
 <img src="./media/SGS-Brightsight.png" alt="Logo SGS-Brightsignt" title="SGS-Brightsignt" data-align="center" height="80" /></a>
--->
 
+     
 <a href="https://www.thalesgroup.com/fr/europe/france/dis">
 <img src="./media/Thales.png" alt="Logo Thales" title="Thales DIS" data-align="center" height="140" /></a>
 
