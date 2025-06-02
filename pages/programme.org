@@ -4,9 +4,7 @@
 #+EXPORT_EXCLUDE_TAGS: noexport
 #+title: JAIF -- programme
 
-à venir !
-
-
+en construction !
 
 # | 09h00  |                                       | Ouverture de la salle & accueil café                                                                           |        |
 # | 09h30  | Ronan Lashermes                       | Ouverture de la journée & mot d'accueil                                                                        |        |
@@ -33,20 +31,20 @@
 # | 17h00  |                                       | Fin de la journée                                                                                              |        |
 # | 18h00… |                                       | [[./infos-pratiques.html#social-event][social event]]                                                                                                   |        |
 
-# ** Présentations invitées
+** Présentations invitées
 
-# *** L'injection de fautes comme outil d'investigation numérique
-# :PROPERTIES:
-# :CUSTOM_ID: hugget
-# :END:
+*** OpenTitan's Hardware Security Analysis Framework
+:PROPERTIES:
+:CUSTOM_ID: nasahl
+:END:
 
-# *Nicolas Hugget* (CCMI)
+*Pascal Nasahl*  (lowRISC)
 
-# *Résumé*.
-# Dans le cadre d'investigations judiciaires les services d'enquêtes sont de plus en plus régulièrement confrontés à des supports numériques, afin de satisfaire aux besoins de l'enquête des unités spécialisées en sont en charge d'extraire les données contenues dans ces supports. Les technologies évoluant, cette tâche est devenue plus ardu et impose aux spécialistes de tester de nouveaux moyen d'accès à la données. Longtemps cantonnées au domaine de la sécurité informatique, les injections de fautes sont désormais envisagées comme un nouvel outils par les analystes numérique. Au cours de cette présentation nous monterons comment les attaques en fautes peuvent être utilisées pour accélérer le processus d'extraction de données dans le cadre d'une enquêtes criminelles judiciaire, en mettant en lumière leurs avantages, leurs limites et leur impact sur les données à extraire.
+*Abstract*.
+à venir.
 
-# *Bio*.
-# Doctorant au sein de l'équipe de sécurité de l'ENS, Nicolas Hugget est ingénieur diplômé de l'Institut Supérieur Électronique de Paris. Il s'est formé à la sécurité matérielle au cours d'un mastère spécialisé aux Mines de Saint-Étienne. Militaire de la gendarmerie, il sert depuis 4 ans dans la dominante criminalistique numérique où il s'est spécialisé en extraction de données.
+*Bio*
+Pascal Nasahl is a senior security engineer at lowRISC C.I.C., where he specializes in fault injection and side-channel analysis and hardening of OpenTitan. He holds a PhD from Graz University of Technology, with a research focus on fault injection countermeasures and system security. His prior experience includes hardware security positions at Google, Intel Labs, and Riscure.
 
 # *** Scalable security for connected devices
 # :PROPERTIES:
@@ -381,7 +379,6 @@
 # :CUSTOM_ID: posters
 # :END:
 
-
 # | Aghiles Douadi   | [[#douadi][Modeling Thermal Effects For Biasing PUFs]]                                                                                    |
 # | Sami El Amraoui  | [[#elamraoui][Control of Ring Oscillators EMFI Susceptibilty through FPGA P&R Constraints]]                                                  |
 # | Paul Grandamme   | [[#grandamme][Éteindre votre composant électronique ne le protège pas !]]                                                                    |
@@ -515,7 +512,6 @@
 # :PROPERTIES:
 # :CUSTOM_ID: thirion
 # :END:
-
 
 # *Daniel Thirion*
 # (STMicroelectronics, LCIS UGA),
