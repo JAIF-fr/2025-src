@@ -46,6 +46,20 @@ en construction !
 *Bio*
 Pascal Nasahl is a senior security engineer at lowRISC C.I.C., where he specializes in fault injection and side-channel analysis and hardening of OpenTitan. He holds a PhD from Graz University of Technology, with a research focus on fault injection countermeasures and system security. His prior experience includes hardware security positions at Google, Intel Labs, and Riscure.
 
+*** Les attaques matérielles dans le cadre de la certification Critères Communs
+:PROPERTIES:
+:CUSTOM_ID: avoue
+:END:
+
+*Géraldine Avoué*  (Centre de Certification, ANSSI),
+*Loïc Besson* (Centre de Certification, ANSSI)
+
+*Résumé*.
+à venir.
+
+*Bio*.
+à venir.
+
 # *** Scalable security for connected devices
 # :PROPERTIES:
 # :CUSTOM_ID: maginot
