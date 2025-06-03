@@ -2,28 +2,28 @@
 #+OPTIONS: toc:nil
 #+title: JAIF -- Appel à contributions
 
-à venir !
 
 
 
 
-# #+begin_center
-# [[file:media/JAIF2024-CfP.pdf][Appel à contributions (PDF)]]
-# #+end_center
+#+begin_center
+[[file:media/JAIF2025-CfP.pdf][Appel à contributions (PDF)]]
+#+end_center
 
-# ** Appel à présentations en séance plénière et à présentation de posters
+** Appel à présentations en séance plénière et à présentation de posters
 
-# Les présentations en français ou en anglais se feront en présentiel uniquement.
-# Pour présenter vos travaux, vous devez soumettre les informations suivantes *par mail à [[mailto:jaif@saxifrage.saclay.cea.fr][jaif@saxifrage.saclay.cea.fr]] avant le 30 juin 2024* :
-# 1. Mention du type de présentation : présentation orale et/ou poster ;
-# 2. Un résumé de votre présentation (de 15 lignes à une page max au format libre) ;
-# 3. Le nom de l’orateur et une courte biographie ;
-# 4. La langue de présentation (français ou anglais).
+Les présentations en français ou en anglais se feront en présentiel uniquement.
+Pour présenter vos travaux, vous devez soumettre les informations suivantes *par mail à [[mailto:jaif@saxifrage.saclay.cea.fr][jaif@saxifrage.saclay.cea.fr]] avant le 27 juin 2024* :
+1. Mention du type de présentation : présentation orale et/ou poster,
+2. La langue de présentation (français ou anglais),
+3. Un résumé de votre présentation (de 15 lignes à une page max au format libre),
+4. Le nom de l’orateur et une courte biographie.
 
-# ** Dates importantes
+** Dates importantes
 
-# - Date limite pour la soumission : 30 juin
-# - Réponses aux auteurs : 5 juillet 2024
-# - JAIF : mardi 1er Octobre 2024
+|                                |                        |
+| Date limite pour la soumission | 27 juin 2025           |
+| Réponses aux auteurs           | 12 juillet 2025        |
+| JAIF                           | 1er Octobre 2025 |
 
 Pour nous contacter : [[mailto:jaif@saxifrage.saclay.cea.fr][jaif@saxifrage.saclay.cea.fr]]
