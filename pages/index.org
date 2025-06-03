@@ -2,6 +2,10 @@
 #+OPTIONS: toc:nil
 #+title: JAIF
 
+
+
+
+
 * Journée thématique sur les attaques par injection de fautes
 
 #+begin_export html
@@ -30,6 +34,10 @@ Le [[./programme.html][programme]] est construit de sorte à favoriser les écha
 La journée est composée d’exposés invités, de chercheurs ou d’industriels seniors, des exposés sélectionnés sur résumé, ainsi que des sessions posters sur le temps des pauses et du déjeuner.
 
 L'[[./cfp.html][appel à contributions]] est détaillé sur une page dédiée.
+
+
+
+
 
 ** Dates importantes
 :PROPERTIES:
@@ -102,53 +110,19 @@ et est sponsorisée par
 l'[[https://www.ssi.gouv.fr/][ANSSI]],
  [[https://www.brightsight.com][Brightsight]],
 [[https://www.thalesgroup.com/fr/europe/france/dis][Thales DIS Identité et Sécurité Numériques]].
-# # [[https://www.alphanov.com/produits-services/solutions-laser-test-de-circuits-integres][ALPhANOV]],
-# # [[https://www.brightsight.com][Brightsight]],
-# # [[https://www.idemia.com/business/idemia-secure-transactions][IDEMIA]],
-# # [[https://www.ledger.com][Ledger]],
-# # [[https://ptcc.fr][PTCC]],
-
-# IMT,
-# Brightsight,
 
 #+BEGIN_EXPORT html
-<br></br>
 <center>
-
-<!--
-<a href="https://www.alphanov.com/produits-services/solutions-laser-test-de-circuits-integres">
-<img src="./media/Alphanov.png" alt="Logo ALPhANOV" title="ALPhANOV" data-align="center" height="80" /></a>
--->
-
 <a href="https://cyber.gouv.fr">
 <img src="./media/ANSSI_Logo.svg" alt="Logo ANSSI" title="ANSSI" data-align="center" height="120" /></a>
 
-<!--
-<a href="https://www.idemia.com/business/idemia-secure-transactions">
-<img src="./media/IDEMIA.png" alt="Logo IDEMIA" title="IDEMIA" data-align="center" height="100" /></a>
--->
-
-<!--
-<a href="https://www.ledger.com">
-<img src="./media/ledger.png" alt="Logo Ledger" title="Ledger" data-align="center" height="80" /></a>
--->
-
-<!--
-
-     
-
-<a href="https://ptcc.fr">
-<img src="./media/PTCC_small.jpg" alt="Logo PTCC" title="PTCC" data-align="center" height="100" /></a>
--->
-
      
 <a href="https://www.brightsight.com">
-<img src="./media/SGS-Brightsight.png" alt="Logo SGS-Brightsignt" title="SGS-Brightsignt" data-align="center" height="80" /></a>
+<img src="./media/SGS-Brightsight.png" alt="Logo SGS-Brightsignt" title="SGS-Brightsignt" data-align="center" height="100" /></a>
 
      
 <a href="https://www.thalesgroup.com/fr/europe/france/dis">
 <img src="./media/Thales.png" alt="Logo Thales" title="Thales DIS" data-align="center" height="140" /></a>
-
 </center>
 #+END_EXPORT
 
@@ -157,18 +131,22 @@ l'[[https://www.ssi.gouv.fr/][ANSSI]],
 # <a href="https://www.alphanov.com">
 # <img src="./media/logo-Alphanov.png" alt="Logo Alpanov" title="Alpanov" data-align="center" height="80" /></a>
 
-#      
+#
 # <a href="https://www.secure-ic.fr">
 # <img src="./media/logo-SecureIC.png" alt="Logo Secure-IC" title="Secure-IC" data-align="center" height="80" /></a>
 
-#      
+#
 # <a href="https://www.brightsight.com">
 # <img src="./media/logo-SGS-Brightsight.png" alt="Logo SGS-Brightsignt" title="SGS-Brightsignt" data-align="center" height="80" /></a>
 
-#      
+#
 # <a href="https://www.st.com">
 # <img src="./media/logo-ST.jpg" alt="Logo ST" title="ST" data-align="center" height="80" /></a>
 # </p>
+
+
+
+
 
 ** Comité d'organisation
 :PROPERTIES:
