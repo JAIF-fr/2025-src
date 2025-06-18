@@ -99,6 +99,7 @@ data-align="center" height="100" /></a>
 et est sponsorisée par
 l'[[https://www.ssi.gouv.fr/][ANSSI]],
  [[https://www.brightsight.com][Brightsight]],
+ [[https://eshard.com][eShard]],
 [[https://www.thalesgroup.com/fr/europe/france/dis][Thales DIS Identité et Sécurité Numériques]].
 
 #+BEGIN_EXPORT html
@@ -109,6 +110,10 @@ l'[[https://www.ssi.gouv.fr/][ANSSI]],
      
 <a href="https://www.brightsight.com">
 <img src="./media/SGS-Brightsight.png" alt="Logo SGS-Brightsight" title="SGS-Brightsight" data-align="center" height="100" /></a>
+
+     
+<a href="https://www.eshard.com">
+<img src="./media/eShard.png" alt="Logo eShard" title="eShard" data-align="center" height="120" /></a>
 
      
 <a href="https://www.thalesgroup.com/fr/europe/france/dis">
