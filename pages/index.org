@@ -37,10 +37,10 @@ L'[[./cfp.html][appel à contributions]] est détaillé sur une page dédiée.
 :CUSTOM_ID: dates
 :END:
 
-|                                |                  |
-| Date limite pour la soumission | 27 juin 2025     |
-| Réponses aux auteurs           | 12 juillet 2025  |
-| JAIF                           | 1er Octobre 2025 |
+|                                |                   |
+| Date limite pour la soumission | +27 juin+ *4 juillet* |
+| Réponses aux auteurs           | *12 juillet*        |
+| JAIF                           | *1er Octobre*       |
 
 ** Soutien institutionnel et sponsors
 :PROPERTIES:
