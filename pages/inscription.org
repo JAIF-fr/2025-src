@@ -2,20 +2,18 @@
 #+OPTIONS: toc:nil
 #+title: JAIF
 
-à venir !
-
 # - [2023-09-05 mar.]  Il n'y a plus de places pour une participation en présentiel !  Une liste d'attente est ouverte dans le formulaire d'inscription ci-dessous.
 
-# *La participation à la journée est gratuite mais l'inscription est
-# obligatoire* pour l'organisation logistique de la journée.  Le nombre
-# de participants en présentiel est limité par la capacité d'accueil de
-# la salle.
+*La participation à la journée est gratuite mais l'inscription est
+obligatoire* pour l'organisation logistique de la journée.  Le nombre
+de participants en présentiel est limité par la capacité d'accueil de
+la salle.
 
-# Pour les participations à distance, nous enverrons le lien de visio quelques jours avant la journée.
+Pour les participations à distance, nous enverrons le lien de visio quelques jours avant la journée.
 
-# #+begin_export html
-# <iframe src="https://framaforms.org/jaif-2024-1720424046" style="overflow: hidden" width="100%" height="1024" style="border:none"></iframe>
-# #+end_export
+#+begin_export html
+<iframe src="https://framaforms.org/jaif-2025-1751984527" style="overflow: hidden" width="100%" height="1024" style="border:none"></iframe>
+#+end_export
 
-# Si le formulaire d'inscription ne s'affiche pas correctement ci-dessous,
-# [[https://framaforms.org/jaif-2024-1720424046][vous pouvez également le retrouver ici]].
+Si le formulaire d'inscription ne s'affiche pas correctement ci-dessous,
+[[https://framaforms.org/jaif-2025-1751984527][vous pouvez également le retrouver ici]].
