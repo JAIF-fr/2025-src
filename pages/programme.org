@@ -88,15 +88,15 @@ talks
 
 posters
 
-| Auteur           | Affil.      | titre | abstract | bio | note |
-|------------------+-------------+-------+----------+-----+------|
-| Glorieux         | IROC        |       |          |     |      |
-| Guichaoua        | IDEMIA/EMSE |       |          |     |      |
-| Meebed           | STMicro     |       |          |     |      |
-| Michelland       | LCIS        |       |          |     |      |
-| Ferrucho-Alvarez | IETR        |       |          |     |      |
-| Hue - Evans      | CEA         |       |          |     |      |
-| Khan             | TelecomPT   |       |          |     |      |
-| Liao             | LIRMM       |       |          |     |      |
-| Sellami          | CEA         |       |          |     |      |
-| Thirion          | LCIS/STM    |       |          |     |      |
+| Auteur           | Affil.      | titre | abstract | bio | note      |
+|------------------+-------------+-------+----------+-----+-----------|
+| Glorieux         | IROC        |       |          |     |           |
+| Guichaoua        | IDEMIA/EMSE |       |          |     |           |
+| +Meebed+           | STMicro     |       |          |     | cancelled |
+| Michelland       | LCIS        |       |          |     |           |
+| Ferrucho-Alvarez | IETR        |       |          |     |           |
+| Hue - Evans      | CEA         |       |          |     |           |
+| Khan             | TelecomPT   |       |          |     |           |
+| Liao             | LIRMM       |       |          |     |           |
+| Sellami          | CEA         |       |          |     |           |
+| Thirion          | LCIS/STM    |       |          |     |           |
