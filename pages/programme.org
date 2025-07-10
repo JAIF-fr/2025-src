@@ -8,24 +8,24 @@
 | 09h00  |                       | Accueil café - badges                    |
 | 09h30  | Damien Couroussé      | Ouverture de la journée & mot d'accueil  |
 | 09h45  |                       | *Session 1 -- Systems on Chips*            |
-|        |                       |                                          |
-|        |                       |                                          |
-|        |                       |                                          |
+|        |[[#nasahl][Pascal Nasahl]]|OpenTitan's Hardware Security Analysis Framework|
+|        |[[#casavecchia][Soline Casavecchia]] | Laser Fault Injection Exploration on System-on-Chip |
+|        |[[#iooss][Ambre Iooss]] | Passage à l'échelle des campagnes de simulations d’injections de fautes |
 | 10h55  |                       | Pause café - [[#posters][posters and demos]]           |
 | 11h40  |                       | *Session 2 -- Systems and Countermeasures* |
-|        |                       |                                          |
-|        |                       |                                          |
-|        |                       |                                          |
+|        |[[#leveugle][Régis Leveugle]]|Protection contre les fautes : est-ce bien toujours une bonne action pour la sécurité ? |
+|        |[[#ferres][Bruno Ferres]]|Using a Vulnerability Assessment Methodology to build and improve Countermeasures against Multi-Fault Injection|
+|        |[[#potet][Marie Laure Potet]]|TBD|
 | 12h40  |                       | Déjeuner                                 |
 | 14h00  |                       | *Session 3 -- Security Evaluation*         |
-|        |                       |                                          |
-|        |                       |                                          |
-|        |                       |                                          |
+|        |[[#avoue][Géraldine Avoué]]|Les attaques matérielles dans le cadre de la certification Critères Communs|
+|        |[[#charles][Alex Charlès]]|Haystack ciphers : White-box countermeasures as Symmetric encryption|
+|        |[[#rais][Idris Raïs-Ali]]|When Is It an Attack? Distinguishing Fault Injection perturbation from Environmental Effects in FPGA-based Digital Sensor|
 | 15h10  |                       | Pause café - [[#posters][posters and demos]]           |
 | 15h50  |                       | *Session 4 -- Laser and Caracterization*   |
-|        |                       |                                          |
-|        |                       |                                          |
-|        |                       |                                          |
+|        |[[#claudepierre][Ludovic Claudepierre]]|Caractérisation des fautes induites par clock-glitch par comparaison avec l’injection laser|
+|        |[[#manguin][Loïc Manguin]]|                                          |
+|        |[[#douadi][Aghiles Douadi]]|Laser Fault Injection on RO-based PUFs Implemented on FPGA|
 | 16h50  | Comité d'organisation | Mot de clôture de la journée             |
 | 18h00… |                       | [[./infos-pratiques.html#social-event][social event]]                             |
 
@@ -58,6 +58,183 @@ Pascal Nasahl is a senior security engineer at lowRISC C.I.C., where he speciali
 *Bio*.
 à venir.
 
+** Présentations
+:PROPERTIES:
+:CUSTOM_ID: presentations
+:END:
+
+*** Laser Fault Injection Exploration on System-on-Chip
+:PROPERTIES:
+:CUSTOM_ID: casavecchia
+:END:
+
+*Soline Casavecchia*  (CEA LETI)
+
+*Abstract*.
+Fault injections on integrated circuits aim to modify the target's intended behaviour, often to the benefit of an attacker. System-on-chips (SoCs), used nowadays in smartphone-type devices, are a particularly sensitive target of interest. Most SoCs usually do not take into account the potential threat of hardware attacks when they are designed, especially compared to other integrated circuits like Secure Elements. As such, there is potential in exploring their vulnerabilities to laser fault injection (LFI), especially since LFI remains overall unstudied compared to other physical attacks such as electro-magnetic fault injection (EMFI) on SoCs [1].
+
+Although Trouchkine et al. [2] explored attacks on SoCs through multiple fault injection methods, the focus was mostly on EMFI targeting CPU cache. Vasselle et al. [3] investigated the effect of LFIs on a SoC device, focusing specifically on static faults that target specific status registers. This work aims to provide a more comprehensive study of potential LFI affecting both the CPU and cache of a SoC. Furthermore, because of the large die surface to be explored, it becomes necessary to adapt the current methodology commonly used to conduct LFI. How can existing LFI approaches be better applied – and potentially modified – to more effectively assess and characterise SoC vulnerabilities?
+ 
+The present work focuses on a quad-core ARMv7 SoC running a Linux Yocto OS. The objective was to tackle the difficulty of finding areas of interest on the large die surface and then successfully injecting and identifying dynamic faults, thus proposing an amended methodology to conventional fault injection campaign processes on microcontrollers, particularly with the use of photon emission analysis. The chip was first constrained to run on a single CPU at its maximum frequency. Photon emission was then used to identify the four CPU cores one at a time, as well as to obtain a general assessment of the CPU's activity through its light output for various operations. Furthermore, photon emission was also used to understand the L1 data cache structure of the target. With Photon Emission Microscopy (PEM) reflecting the chip activity through the transistors emitting light when switching, it was possible to narrow down the areas to explore in LFI. When attacking the CPU itself, a 100% repeatability was achieved for modifying the source register of an ADD instruction, as well as an 85% repeatability for exiting a loop prematurely by faulting a conditional branch instruction. Both of these faults were obtained with the laser pulse by targeting the while loop during its runtime, with the duration of the laser pulse encompassing multiple instructions. Other experiments, dynamically targeting cache memory buffers, made it possible to change the value loaded in the registers during the runtime of the code under attack. Single bit faults were injected in the data read by the six used working registers, with an on-average repeatability of 25%, which can be explained by the fact that the target data are stored randomly in one of the four-way cache. 
+ 
+References
+[1] C. Shepherd, K. Markantonakis, N. van Heijningen, D. Aboulkassimi, C. Gaine, T. Heckmann, and D. Naccache, “Physical fault injection and side-channel attacks on mobile devices: A comprehensive analysis,” Computers & Security, vol. 111, p. 102471, 2021
+[2] T. Trouchkine, “Soc physical security evaluation,” Ph.D. dissertation, Université Grenoble Alpes [2020-....], 2021.
+[3] A. Vasselle, H. Thiebeauld, Q. Maouhoub, A. Morisset, and S. Ermeneux, “Laser-induced fault injection on smartphone bypassing the secure boot-extended version,” IEEE Transactions on Computers, vol. 69, no. 10, pp. 1449–1459, 2018
+
+*Bio*
+Soline est diplômée de l’École des Mines de Saint-Étienne cursus Ingénieur Spécialisé Microélectronique Informatique & Numérique (2024). Depuis novembre 2024, Soline mène une thèse de doctorat CEA au sein de l’équipe SAS (Systèmes et Architectures Sécurisés) du Campus Microélectronique de Provence à Gardanne. Sa thèse est dirigée par Jessy Clédière, codirigée par Jean-Max Dutertre et encadrée par Simon Pontié et Driss Aboulkassimi. Le sujet de cette thèse porte sur l’étude et la caractérisation des vulnérabilités des systèmes-sur-puce (System-on-Chip) aux injections de fautes par illumination laser.
+
+
+*** Passage à l'échelle des campagnes de simulations d’injections de fautes
+:PROPERTIES:
+:CUSTOM_ID: iooss
+:END:
+
+*Ambre Iooss*  (Synacktiv)
+
+*Abstract*.
+Les injections de fautes constituent un vecteur d'attaque intéressant pour passer outre certaines protections lors de l'étude d'un système embarqué. Par exemple, corrompre le flot d'exécution d'un chargeur de démarrage peut permettre de passer outre une vérification de signature, et peut rendre possible l'exécution de code non signé. Dans le cas d'une exécution comportant un grand nombre d'instructions, trouver le moment optimal pour injecter une faute peut devenir fastidieux. La simulation de fautes permet alors de gagner en temps en identifiant en amont les instructions sensibles.
+
+Rainbow est un outil libre de simulation d'injections de fautes basé sur l'émulateur QEMU. Il permet d'observer à partir d'une modélisation d'une faute (ex. saut d'instruction, corruption du registre de destination) ses conséquences sur le flot d'exécution d'un programme.
+
+Jusqu'à maintenant Rainbow utilisait une approche naïve en comptant les instructions pendant l'émulation pour appliquer le modèle de faute. Dans le cadre de cette présentation, nous décrivons une nouvelle méthode permettant de gagner en efficacité et ainsi trouver beaucoup plus rapidement des instructions sensibles. La présentation s'appuiera sur un cas pratique de recherche d'instructions sensibles dans une BootROM de téléphone portable afin de passer outre un mécanisme de démarrage sécurisé.
+
+*Bio*
+Ambre Iooss est experte reverse chez Synacktiv. Dans le cadre de ses activités d'attaques par injections de fautes, elle développe des simulateurs dans le but de gagner en efficacité lors de l'étude de futurs produits. Elle se passionne également pour le développement de logiciels libres.
+
+*** Protection contre les fautes : est-ce bien toujours une bonne action pour la sécurité ? 
+:PROPERTIES:
+:CUSTOM_ID: leveugle
+:END:
+
+*Régis Leveugle*  (TIMA)
+
+
+*Abstract*.
+Cette présentation, dont le titre est volontairement provocateur dans le cadre de JAIF, a pour objectif de
+mettre en lumière deux aspects trop peu analysés dans la littérature, à savoir :
+1.	l'insuffisance des protections classiques contre les fautes quand la sécurité matérielle fait partie des exigences 
+2.	au-delà de cette limitation, l'impact négatif que des protections insuffisamment réfléchies peuvent avoir sur les fuites d'information et donc le niveau global de sécurité d'un système. L'accent sera mis sur les systèmes intégrés numériques, et l'exploitation dans le contexte de la sécurité matérielle des techniques de durcissement par conception visant initialement la fiabilité et la sûreté. Les exemples présentés illustreront les messages suivant : 
+    1.	les principes de sélection et d'exploitation des techniques classiques de durcissement contre les fautes doivent être revisités lorsque la sécurité fait partie des attributs souhaités pour le système, 
+    2.	les modèles de fautes considérés doivent tenir compte du niveau de nuisance des équipements disponibles pour les attaques, bien supérieur aux effets des sources naturelles de perturbations, 
+    3.	le flot de conception doit aussi être optimisé selon des principes différents
+
+*Bio*
+Régis Leveugle received the Ph.D. degree in Microelectronics from the National Polytechnical Institute of Grenoble (INPG), France, in 1990 after the M. Eng. Degree in Electronics and the M.S. Degree in Microelectronics in 1987. He is currently a Professor at Grenoble INP, Université Grenoble Alpes,
+France and a member of TIMA laboratory. His main interests are computer architecture, integrated system design methods and tools, dependability analysis and digital system design for reliability, safety and security. He has authored or co-authored more than 250 scientific papers in these areas and served in numerous International Conference organization and program committees. He is a Senior member of IEEE.
+
+*** Using a Vulnerability Assessment Methodology to build and improve Countermeasures against Multi-Fault Injection
+:PROPERTIES:
+:CUSTOM_ID: ferres
+:END:
+
+*Bruno Ferres*  (VERIMAG)
+
+*Abstract*.
+While fault injection attacks are tightly linked to hardware implementation details, a common way to protect programs against them still rely on either purely software countermeasures, or hybrid hardware/software countermeasures. Indeed, in order to protect a specific program against multiple fault models, a proper design and evaluation methodology must be followed, as the multi-fault nature induce a combinatorial explosion of the possible attack scenarios. Such methodology can be deployed at various level of the program's design flow, from the C code itself to passes of the compiler. In this presentation, we base our work on a methodology that was proposed to estimate and automatically insert countermeasures against multiple fault injections, during the compilation process, using the Lazart tool developped in VERIMAG (which rely on the LLVM representation). 
+
+More specifically, we introduce how this methodology can be used not only for countermeasure insertion, but also to iteratively improve known hardening schemes. This is demonstrated by incrementally hardening a shadow stack mechanism against various fault models defined at ISA level, including test inversion, load mutation and control-flow tempering. We show that, by correctly instrumenting a C code representing both the program we want to protect, and the protective scheme itself, we can use LAZART to identify vulnerabilities in the proposed countermeasure, and incrementally improve the security level against the given fault models. The built countermeasure is shown to be robust against 3 faults. 
+
+In particular, we study two kind of implementation for the proposed countermeasure (called CFIStack): one solely relying on a software implementation, and one mixing sofware and hardware parts. We demonstrate how C level prototyping can be used to study how hypothesis on the hardware/software interface, paving the way for early prototyping of hybrid countermeasures.
+
+*Bio*
+Bruno Ferres is a recently appointed Associate Professor at VERIMAG and UGA. 
+He obtained an engineering degree from Grenoble INP - Ensimag, UGA, and both a MSc in CyberSecurity and a Ph.D. in NanoElectronics from UGA. 
+His research interests lie at the interface between hardware and software, with a particular focus on how formal methods and modeling can be used for both safety and security analysis at this interface.
+
+*** TBD
+:PROPERTIES:
+:CUSTOM_ID: potet
+:END:
+
+*Marie Laure Potet*  (VERIMAG)
+
+*Abstract*.
+à venir.
+
+*Bio*
+à venir
+
+*** Haystack ciphers : White-box countermeasures as Symmetric encryption
+:PROPERTIES:
+:CUSTOM_ID: charles
+:END:
+
+*Alex Charlès*  (Université du luxembourg)
+
+*Abstract*.
+La cryptographie en boîte blanche est un domaine où l’on suppose que l’attaquant a un accès complet à l’implémentation, ce qui peut être vu comme une extension des attaques par canaux cachés où l’attaquant pourrait réaliser n’importe quelle mesure sans coût et sans bruit de mesure. Ce domaine trouve son intérêt dans le Digital Right Management (DRM) ou les moyens de payement. 
+
+Aucune implémentation en boîte-blanche sécurisée n’a pour l’heure été proposée, car l’attaquant dans ce domaine possède de multiples possibilités, dont des attaques issues de celles par canaux cachés. Puisqu’il n’y a aucun bruit sur la mesure et que toutes les portes logiques sont accessibles lors de la génération de trace, il est possible de créer des attaques non-invasives terriblement efficaces. La recherche s’est alors portée sur ces dernières.
+
+Dans ce travail, nous avons proposé le premier modèle de sécurité, représentant la problématique de l’attaque des schémas de masquage par des algorithmes de chiffrement symétriques en boîte-blanche. Nous avons montré que les attaques par clair choisi (CPA) correspondaient aux attaques non-invasives, et que celles par chiffré choisi (CCA) aux attaques par fautes sur lesquelles je concentrerais la présentation. Nous appuyant sur la littérature des attaques par injection de fautes, nous avons alors proposé la première étude globale sur les contremesures et attaques par fautes dans la cryptographie en boîte blanche et en avons trouvé et formalisé de nouvelles attaques, mettant en avant le besoin capital de recherches sur le sujet afin de s’en prémunir.
+
+Ce domaine connexe ainsi que ce nouveau formalisme basé sur la cryptographie symétrique pourrait intéresser la communauté scientifique des preuves de sécurités dans les attaques par canaux cachés ; aussi il serait intéressant de rapprocher les deux communautés.
+
+
+*Bio*
+Alex Charlès conclu, à la fin de l’année, son doctorat à l’Université du Luxembourg sous la supervision d’Alex Biryukov, et a en particulier publié et présenté deux articles scientifiques à la conférence Cryptographic Hardwares and Embedded Systems (CHES) (https://tches.iacr.org/index.php/TCHES/article/view/11168, https://tches.iacr.org/index.php/TCHES/article/view/11668) sur le domaine de la cryptographie en boîte blanche, spécifiquement sur l’étude des schémas de masquages, et possède d’autres travaux en cours de parution sur ce même domaine.
+
+*** When Is It an Attack? Distinguishing Fault Injection perturbation from Environmental Effects in FPGA-based Digital Sensor
+:PROPERTIES:
+:CUSTOM_ID: rais
+:END:
+
+*Idris Raïs-Ali*  (SecureIC)
+
+*Abstract*.
+In this work, we investigate the sensitivity of a Digital Sensor IP used for fault detection against physical fault injection attacks, such as electromagnetic pulses, clock glitches, power glitches, and laser injections. The Digital Sensor IP is a Time-to-Digital Converter (TDC), which can be implemented on an FPGA. It is first characterized under controlled environmental variations, including minor voltage deviations (both over-voltage and undervoltage), frequency changes and temperature changes from ambient to extremes conditions (lowest and highest functional temperatures). Baseline response deviations are recorded to establish the expected operational variability in the absence of attacks. Subsequently, the IP is exposed to active fault injection perturbations to evaluate its response under attack conditions. The objective of this study is to assess the discriminability between normal environmental-induced deviations and attack-induced deviations, enabling reliable detection of fault injection events. Preliminary results demonstrate clear differentiation between environmental effects and attack effects, although some overlapping scenarios were observed. Quantifying the overlap area is crucial to understand the false positive and false negative trade-offs when deploying the sensor IP as a countermeasure in critical systems. This work provides key insights into the robustness and detection capability of FPGAbased digital sensor IPs under realistic environmental and fault injection conditions.
+
+*Bio*
+Idris Rais-Ali is a researcher and a Hardware Security Evaluation Engineer at Secure-IC, specializing in hardware security and embedded system resilience. His work focuses on enhancing system robustness particularly by characterizing and mitigating fluctuations in environmental conditions and study the effect of perturbation attacks applied to secure hardware design and countermeasure integration.
+
+
+*** Caractérisation des fautes induites par clock-glitch par comparaison avec l’injection laser
+:PROPERTIES:
+:CUSTOM_ID: claudepierre
+:END:
+
+*Ludovic Claudepierre*  (IETR)
+
+*Abstract*.
+à venir.
+
+*Bio*
+After a PhD in electromagnetism and high frequency system at INP Toulouse, he discovered in 2017 in Rennes the world of hardware cybersecurity. First by doing electromagnetic and clock glitch fault attack at INRIA and now by doing laser fault injection and photo-emmission at IETR.
+
+*** TITLE
+:PROPERTIES:
+:CUSTOM_ID: manguin
+:END:
+
+*Loïc Manguin*  (CEA LETI, SOITEC)
+
+*Abstract*.
+à venir.
+
+*Bio*
+à venir
+
+*** Laser Fault Injection on RO-based PUFs Implemented on FPGA
+:PROPERTIES:
+:CUSTOM_ID: douadi
+:END:
+
+*Aghiles Douadi*  (TIMA)
+*Elena-Ioana Vatajelu* (TIMA)
+*Paolo Maistri* (TIMA)
+*Jean-Max Dutertre* (CEA LETI)
+*David Hely* (LCIS)
+*Vincent Beroulle* (LCIS)
+*Giorgio Di Natale* (TIMA)
+
+*Abstract*.
+Les Physical Unclonable Functions (PUF) s’appuient sur les variations aléatoires et incontrôlables introduites au niveau physique lors du procédé de fabrication des circuits intégrés. Ces variations sont propres à chaque puce, impossibles à reproduire même avec un processus identique, ce qui permet de générer des identifiants ou des clés cryptographiques uniques sans recourir à un stockage permanent. Cette propriété fait des PUF une alternative attrayante et sécurisée aux mémoires non volatiles, notamment dans des contextes contraints en ressources ou exposés à des attaques physiques. Cependant, avec l’apparition de nouvelles menaces matérielles, telles que les attaques par faisceau laser, la robustesse des PUF face à des perturbations ciblées doit être réévaluée avec attention. Dans ce travail, nous démontrons qu’un faisceau laser localisé peut être utilisé pour non seulement perturber, mais également contrôler le comportement d’un PUF basé sur des oscillateurs en anneau (Ring Oscillator PUF). Cette attaque repose sur l’exploitation conjointe des effets thermiques et photoélectriques induits par le laser au niveau des composants du circuit. Nos résultats mettent en évidence une vulnérabilité préoccupante, qui remet en question l’hypothèse de non-clonabilité et de stabilité des réponses des PUF dans un environnement potentiellement hostile. Ils soulignent ainsi la nécessité de concevoir des contre-mesures efficaces, capables de détecter ou de limiter l’impact de telles attaques physiques ciblées.
+
+*Bio*
+Aghiles Douadi a obtenu son master en 2022 à l’Université Bourgogne Franche-Comté, où il s’est spécialisé en microélectronique. La même année, il a débuté une thèse de doctorat au laboratoire TIMA à Grenoble, en co-encadrement avec le laboratoire LCIS à Valence. Ses travaux de recherche portent sur l’étude des effets des attaques thermiques sur des primitives de sécurité matérielle, telles que les Physical Unclonable Functions (PUF).
+
 ** Posters
 :PROPERTIES:
 :CUSTOM_ID: posters
@@ -65,25 +242,38 @@ Pascal Nasahl is a senior security engineer at lowRISC C.I.C., where he speciali
 
 * suivi intégration programme                                      :noexport:
 
+*** TITLE
+:PROPERTIES:
+:CUSTOM_ID: author
+:END:
+
+*Author*  (Company)
+
+*Abstract*.
+à venir.
+
+*Bio*
+à venir
+
 talks
 
 | orateur         | Affil.      | session                | titre | abstract | bio | note |
 |-----------------+-------------+------------------------+-------+----------+-----+------|
 | P. Nasahl       | lowRisc     | SoC                    |       |          |     |      |
-| Casavecchia     | Leti        |                        |       |          |     |      |
-| Iooss           | Synacktiv   |                        |       |          |     |      |
+| Casavecchia     | Leti        |                        |   x   |    x     |  x  |      |
+| Iooss           | Synacktiv   |                        |   x   |    x     |  x  |      |
 |-----------------+-------------+------------------------+-------+----------+-----+------|
-| Leveugle        | TIMA        | système                |       |          |     |      |
-| Ferres          | VERIMAG     | contre-mesures         |       |          |     |      |
-| ML. Potet       |             |                        |       |          |     |      |
+| Leveugle        | TIMA        | système                |   x   |     x    |  x  |      |
+| Ferres          | VERIMAG     | contre-mesures         |   x   |     x    |  x  |      |
+| ML. Potet       |             |                        |       |          |     |no mail|
 |-----------------+-------------+------------------------+-------+----------+-----+------|
-| Géraldine Avoué | ANSSI       | évaluation de sécurité |       |          |     |      |
-| Charlès         | U.Lux.      |                        |       |          |     |      |
-| Raïs-Ali        | SecureIC    |                        |       |          |     |      |
+| Géraldine Avoué | ANSSI       | évaluation de sécurité |   x   |          |     | no mail     |
+| Charlès         | U.Lux.      |                        |   x   |     x    |  x  |      |
+| Raïs-Ali        | SecureIC    |                        |   x   |     x    |  x  |      |
 |-----------------+-------------+------------------------+-------+----------+-----+------|
-| Claudepierre    | IETR        |                        |       |          |     |      |
-| Mangin          | Leti/SOITEC | laser et carac         |       |          |     |      |
-| Douadi          | TIMA        |                        |       |          |     |      |
+| Claudepierre    | IETR        |                        |   x   |          |  x  |      |
+| Mangin          | Leti/SOITEC | laser et carac         |       |          |     |no mail|
+| Douadi          | TIMA        |                        |   x   |     x    |  x  |      |
 
 
 posters
