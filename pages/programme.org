@@ -39,7 +39,7 @@
 *Pascal Nasahl*  (lowRISC)
 
 *Abstract*.
-à venir.
+This talk presents our transparent and robust methodology for designing OpenTitan IP that is hardened against physical threats, such as fault injection and side-channel attacks. Pivotal to this is OpenTitan's open-source hardware security analysis framework, which enables collaborative validation of the silicon's security defenses throughout its entire lifecycle, from pre-silicon design to post-silicon reality.
 
 *Bio*
 Pascal Nasahl is a senior security engineer at lowRISC C.I.C., where he specializes in fault injection and side-channel analysis and hardening of OpenTitan. He holds a PhD from Graz University of Technology, with a research focus on fault injection countermeasures and system security. His prior experience includes hardware security positions at Google, Intel Labs, and Riscure.
@@ -380,9 +380,6 @@ Daniel is a second-year Ph.D. student at the LCIS Lab in Valence, France, and is
 
 talks
 
-| orateur         | Affil.      | session                | titre | abstract | bio | note |
-|-----------------+-------------+------------------------+-------+----------+-----+------|
-| P. Nasahl       | lowRisc     | SoC                    |       |          |     |      |
 | Casavecchia     | Leti        |                        |   x   |    x     |  x  |      |
 | Iooss           | Synacktiv   |                        |   x   |    x     |  x  |      |
 |-----------------+-------------+------------------------+-------+----------+-----+------|
@@ -397,6 +394,9 @@ talks
 | Claudepierre    | IETR        |                        |   x   |          |  x  |      |
 | Mangin          | Leti/SOITEC | laser et carac         |   x   |     x    |  x  |      |
 | Douadi          | TIMA        |                        |   x   |     x    |  x  |      |
+| orateur         | Affil.      | session                | titre | abstract | bio | note    |
+|-----------------+-------------+------------------------+-------+----------+-----+---------|
+| P. Nasahl       | lowRisc     | SoC                    | x     | x        | x   |         |
 
 
 posters
