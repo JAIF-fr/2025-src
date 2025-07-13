@@ -1,96 +1,24 @@
 #+STARTUP: showall
 #+OPTIONS: toc:nil
-#+title: JAIF
-
-à venir !
+#+title: JAIF 2025
 
 
-# # Des *navettes* et du *covoiturage* seront mis en place *entre la gare de Aix-TGV et Gardanne*.
+* Informations pratiques
 
-# - [2023-09-18 lun.]   Un framapad a été ouvert pour les propositions et les demandes de [[#covoiturage][co-voiturage.]]
-# - [2023-09-20 mer.]   Des framapads sont ouverts pour inscription [[#navettes][aux navettes vers CMP / JAIF]].
-
-# ** Lieu
-# :PROPERTIES:
-# :CUSTOM_ID: where
-# :END:
-
-# Grand Amphithéâtre, Centre Microélectronique de Provence, Mines Saint-Étienne, Campus Provence (Georges Charpak)
-
-# 880, route de Mimet
-
-# F-13541 Gardanne
-
-# Transport : Bus n° 183, arrêt “Centre Charpak”
-
-# Coordonnées téléphoniques Campus de Gardanne : +33 4 42 61 66 00
-
-# Plan d’accès : [[https://www.mines-stetienne.fr/plans-dacces][Comment venir sur le Campus Provence (Georges Charpak)]]
-
-# Coordonnées GPS: 43° 26’ 44″ N / 05° 28’ 47″ E
-
-# ** Navettes gare TGV Aix en Provence/Gare Gardanne – CMP
-# :PROPERTIES:
-# :CUSTOM_ID: navettes
-# :END:
-
-# Un car sera spécialement affrété pour les participants de JAIF.
+La journée se tiendra à la maison Minatec.
 
 
-# - *Matin, arrivée à JAIF*.
-#    Aix gare (centre ville) 8h15 >> Gardanne gare 8h45 >> JAIF / CMP 09h00.
+Date:  la journée aura lieu le [[./index.html][mer. 1er octobre, de 09h00 à 17h00]].
 
-#    [[https://lite.framacalc.org/jaif2023-bus-matin-a3ca][-> inscription sur le framapad,  navette d'arrivée à JAIF <--]]
+Lieu: Maison Minatec.  3 Parvis Louis Néel - 38054 Grenoble.
+[[https://www.minatec.org/fr/plan-dacces/][Plan d'accès.]]
 
-# - *Fin d'après midi, départ de JAIF*.
-#     JAIF / CMP 17h00 >> Gare de Gardanne 17h15 >> Aix TGV 17h45 >> Aix gare (centre ville) 18h25.
+Depuis la gare SCNF, l'accès à la maison Minatec peut se faire en
+tramway (5 min.), à pied (10 min.) ou en taxi (5 min.).
 
-#     [[https://lite.framacalc.org/aif2023-bus-postJAIF][--> inscription sur le framapad, navette post-JAIF <--]]
-
-# - *Fin du social event, départ du CMP*.
-#     JAIF / CMP 19h00 >> Gare de Gardanne 19h15 >> Aix gare (centre ville) 19h45
-
-#     [[https://lite.framacalc.org/aif2023-bus-post-socialevent][--> inscription sur le framapad, navette post- social event <--]]
-
-# ** Covoiturage
-# :PROPERTIES:
-# :CUSTOM_ID:       covoiturage
-# :END:
-
-# Un document partagé est ouvert ici pour l'organisation du covoiturage :
-# [[https://semestriel.framapad.org/p/jaif2023-covoiturage-a2yf?lang=en][jaif2023-covoiturage-a2yf | Framapad semestriel]]
-
-# ** Accès en transports en commun
-
-# *** Gardanne gare SNCF -- campus de Gardanne
-
-# Il existe des navettes régulières par la ligne 3 (Omnibus Gardanne) entre la Gare et le campus de Gardanne le matin et en fin d’après-midi.
-# - Réservation possible entre 9h30 et 15h45 (la veille ou au minimum 4 heures avant la course).
-# - Numéro vert : 0 800 00 32 35.
-# - En savoir plus : https://www.ville-gardanne.fr.
-
-# L’école est desservie par la ligne de bus n° 183, arrêt « Centre Charpak ».
-
-
-# *** Gardanne  -- Marseille
-
-# Vous pourrez y prendre aussi un bus de la ligne 64, qui permet, entre autres, de rejoindre la gare Saint-Charles, à Marseille, en 30 minutes.
-
-
-# *** Marseille -- Aix-en-Provence -- Aix-TGV
-
-#  [[https://www.lepilote.com/ftp/document/fiche-horaire-2022-40-fr.pdf][fiche-horaire-2022-40-fr.pdf]]
-
-
-# ** Hotels
-
-# Nous vous recommandons de vous loger à Aix-en-Provence pour venir assister à JAIF 2023. Nous prévoyons la mise en place d’une navette et de covoiturage entre Aix et le CMP à Gardanne.
-
-
-
-# -  Appart'Hôtel Odalys City L'Atrium, 15 Cr Gambetta, 13100 Aix-en-Provence, Téléphone : 04 42 99 16 00.
-# -  Hôtel le Mozart, 49 Cr Gambetta, 13100 Aix-en-Provence, Téléphone : 04 42 21 62 86.
-
+#+BEGIN_EXPORT html
+<p><img class="pure-img" src="media/Minatec-acces.png" /></p>
+#+END_EXPORT
 
 # ** Social Event
 # :PROPERTIES:
