@@ -250,8 +250,16 @@ Aghiles Douadi a obtenu son master en 2022 à l’Université Bourgogne Franche-
 :CUSTOM_ID: posters
 :END:
 
+| Sébastien Michelland   | [[#michelland][Secure compilation with Tracing LLVM: a demo]]                                                                                    |
+| Edna Ferrucho-Alvarez | [[#ferrucho][REVERSE ENGINEERING-BASED FAULT INJECTION IN FPGA BRAM]]                                                                                    |
+| Jérôme Hue, Adrian Evans | [[#hue][Utilisation de la plateforme AIDGE pour l’analyse de l’impact des fautes dans des réseaux de neurones]]                                                                                    |
+| Mahreen Khan | [[#khan][Gem5-based Virtual Platform for RISC-V Security]]                                                                                    |
+| Ziling Liao | [[#liao][A venir]]                                                                                    |
+| Yanis Sellami | [[#sellami][A Binsec Plugin for Fault Injection / Adversarial Symbolic Execution]]                                                                                    |
+| Daniel Thirion | [[#thirion][ClassifyFP: RTL Fault Classifier for a Low False-Positive Rate Safe & Secure AES]]                                                                                    |
 
-*** TITLE
+
+*** Secure compilation with Tracing LLVM: a demo
 :PROPERTIES:
 :CUSTOM_ID: michelland
 :END:
@@ -287,10 +295,11 @@ Edna Rocio Ferrucho-Alvarez received her Master's degree in Applied Electronic E
 
 *** Utilisation de la plateforme AIDGE pour l’analyse de l’impact des fautes dans des réseaux de neurones
 :PROPERTIES:
-:CUSTOM_ID: evans
+:CUSTOM_ID: hue
 :END:
 
-*Jérôme Hue*  (CEA)
+*Jérôme Hue*  (CEA LIST)
+*Adrian Evans*  (CEA LIST)
 
 *Abstract*.
 Les réseaux de neurones sont utilisés dans de nombreuses applications, y compris des applications critiques où des enjeux de sécurité sont présents. Le matériel qui évalue ces réseaux (par exemple, CPUs, GPUs, TPUs, etc.) est sujet à des fautes matérielles qui peuvent avoir un impact sur les résultats des calculs. Il est donc crucial de bien comprendre comment les fautes dans un réseau de neurones se propagent et modifient les résultats. Ces fautes peuvent impacter les poids, les activations ou les opérateurs de calcul et elles peuvent être transitoires ou permanentes. Certaines fautes seront complétement masquées et d’autres provoquent des erreurs de classification. Il est donc important d’avoir des outils qui permettent d’évaluer l’impact des fautes matériels.
