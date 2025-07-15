@@ -15,7 +15,7 @@
 | 11h40  |                                      | *Session 2 -- Systems and Countermeasures*                                                                                             |
 |        | Régis Leveugle (TIMA)                | [[#leveugle][Protection contre les fautes : est-ce bien toujours une bonne action pour la sécurité ?]]                               |
 |        | Bruno Ferres (Verimag)               | [[#ferres][Using a Vulnerability Assessment Methodology to build and improve Countermeasures against Multi-Fault Injection]]         |
-|        | Marie-Laure Potet (Verimag)          | [[#potet][TBD]]                                                                                                                      |
+|        | Marie-Laure Potet (Verimag)          | [[#potet][Sécurisation des applications contre les attaques en fautes : retour sur quelques challenges]]                                                                                                                      |
 | 12h40  |                                      | Déjeuner      - [[#posters][posters and demos]]                                                                                      |
 | 14h00  |                                      | *Session 3 -- Security Evaluation*                                                                                                     |
 |        | Géraldine Avoué, Loïc Besson (ANSSI) | [[#avoue][Les attaques matérielles dans le cadre de la certification Critères Communs]]                                              |
@@ -154,18 +154,19 @@ Bruno Ferres is a recently appointed Associate Professor at VERIMAG and UGA.
 He obtained an engineering degree from Grenoble INP - Ensimag, UGA, and both a MSc in CyberSecurity and a Ph.D. in NanoElectronics from UGA.
 His research interests lie at the interface between hardware and software, with a particular focus on how formal methods and modeling can be used for both safety and security analysis at this interface.
 
-# *** TBD
-# :PROPERTIES:
-# :CUSTOM_ID: potet
-# :END:
+*** Sécurisation des applications contre les attaques en fautes : retour sur quelques challenges
+:PROPERTIES:
+:CUSTOM_ID: potet
+:END:
 
-# *Marie Laure Potet*  (VERIMAG)
+*Marie Laure Potet*  (VERIMAG)
 
-# *Abstract*.
-# à venir.
+*Abstract*.
+Cet exposé sera l'occasion de revenir sur l'évolution des outils et méthodes aidant à évaluer et sécuriser les applications contre les attaques en faute en prenant en compte les nouvelles applications visées, l'état de l'art demandant des protections en multi-fautes et les nouveaux besoins en assurance. Ce sera aussi l'occasion de revenir sur les 10 ans de la mise en place de la communauté JAIF !
 
-# *Bio*.
-# à venir
+*Bio*.
+Marie-Laure Potet est professeur à Grenoble INP et checheur au laboratoire Vérimag de l'université de Grenoble Alpes. Elle a travaillé dans le domaine des méthodes formelles pour la sûreté puis pour la certification de sécurité. A Vérimag elle a mis en place une équipe sur les outils et l’analyse de code pour la sécurité, initialement pour la recherche de vulnérabilités puis pour les attaques en faute. Elle a participé à de nombreux projets et encadrements  de thèse sur le sujet. Elle est présentement impliquée dans les projets Arsène et SecurEval du PEPR Cybersécurité et dans le projet AUDACE Twinsec.
+à venir.
 
 *** Haystack ciphers : White-box countermeasures as Symmetric encryption
 :PROPERTIES:
@@ -299,7 +300,6 @@ Ihab Alshaer (IROC Technologies),
 *Maximilien Glorieux* (IROC Technologies),
 Thomas Lange (IROC Technologies)
 
-
 *Abstract*.
 Field-programmable gate arrays (FPGAs) are increasingly being used in critical
 applications. This poses a significant concern on its security and reliability. Similar to embedded
@@ -341,7 +341,6 @@ adapted to understand the impact of fault injection attacks on RISC-V processors
 Jean-Max Dutertre (EMSE),
 Jean-Baptiste Rigaud (EMSE),
 Samuel Lesne (IDEMIA StarChip)
-
 
 *Abstract*.
 Laser Fault Injection (LFI) is a threat to the security of integrated circuits (ICs).
@@ -476,7 +475,6 @@ Daniel is a second-year Ph.D. student at the LCIS Lab in Valence, France, and is
 
 # *Bio*.
 # Ziling LIAO is a Ph.D. student at LIRMM. She received her Engineering diploma in Electrical Engineering from INSA Lyon in 2023. She is currently conducting research on hardware security in integrated circuits. Her work focuses on low-cost fault injection attacks, such as Electromagnetic Fault Injection (EMFI) and Body Bias Injection (BBI), and their impact on memory and control flow in embedded microcontrollers.
-
 
 * suivi intégration programme                                      :noexport:
 
