@@ -501,7 +501,7 @@ talks
 |-----------------+-------------+------------------------+-------+----------+-----+---------|
 | Leveugle        | TIMA        | système                | x     | x        | x   |         |
 | Ferres          | VERIMAG     | contre-mesures         | x     | x        | x   |         |
-| ML. Potet       |             |                        |       |          |     | no mail |
+| ML. Potet       | VERIMAG     |                        | x     | x        | x   | no mail |
 |-----------------+-------------+------------------------+-------+----------+-----+---------|
 | Géraldine Avoué | ANSSI       | évaluation de sécurité | x     |          |     | no mail |
 | Charlès         | U.Lux.      |                        | x     | x        | x   |         |
@@ -522,7 +522,7 @@ posters
 | Ferrucho-Alvarez | IETR        | x     | x        | x   |           |
 | Hue - Evans      | CEA         | x     | x        | x   |           |
 | Khan             | TelecomPT   | x     | x        | x   |           |
-| Liao             | LIRMM       |       | x        | x   |           |
+| Liao             | LIRMM       | x     | x        | x   |           |
 | Sellami          | CEA         | x     | x        | x   |           |
 | Thirion          | LCIS/STM    | x     | x        | x   |           |
 
