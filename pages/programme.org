@@ -5,29 +5,29 @@
 
 #+title: JAIF -- programme
 
-| 09h00  |                                      | Accueil café - badges                                                                                                                |
-| 09h30  | Damien Couroussé (CEA)               | Ouverture de la journée & mot d'accueil                                                                                              |
-| 09h45  |                                      | *Session 1 -- Systems on Chips*                                                                                                        |
-|        | Pascal Nasahl (lowRisc)              | [[#nasahl][OpenTitan's Hardware Security Analysis Framework]]                                                                        |
-|        | Soline Casavecchia (CEA)             | [[#casavecchia][Laser Fault Injection Exploration on System-on-Chip]]                                                                |
-|        | Ambre Iooss (Synacktiv)              | [[#iooss][Passage à l'échelle des campagnes de simulations d’injections de fautes]]                                                  |
-| 10h55  |                                      | Pause café - [[#posters][posters and demos]]                                                                                         |
-| 11h40  |                                      | *Session 2 -- Systems and Countermeasures*                                                                                             |
-|        | Régis Leveugle (TIMA)                | [[#leveugle][Protection contre les fautes : est-ce bien toujours une bonne action pour la sécurité ?]]                               |
-|        | Bruno Ferres (Verimag)               | [[#ferres][Using a Vulnerability Assessment Methodology to build and improve Countermeasures against Multi-Fault Injection]]         |
-|        | Marie-Laure Potet (Verimag)          | [[#potet][Sécurisation des applications contre les attaques en fautes : retour sur quelques challenges]]                                                                                                                      |
-| 12h40  |                                      | Déjeuner      - [[#posters][posters and demos]]                                                                                      |
-| 14h00  |                                      | *Session 3 -- Security Evaluation*                                                                                                     |
-|        | Géraldine Avoué, Loïc Besson (ANSSI) | [[#avoue][Les attaques matérielles dans le cadre de la certification Critères Communs]]                                              |
-|        | Alex Charlès (U. Luxembourg)         | [[#charles][Haystack ciphers : White-box countermeasures as Symmetric encryption]]                                                   |
-|        | Idris Raïs-Ali (SecureIC)            | [[#rais][When Is It an Attack? Distinguishing Fault Injection perturbation from Environmental Effects in FPGA-based Digital Sensor]] |
-| 15h10  |                                      | Pause café - [[#posters][posters and demos]]                                                                                         |
-| 15h50  |                                      | *Session 4 -- Laser and Caracterization*                                                                                               |
-|        | Ludovic Claudepierre (IETR)          | [[#claudepierre][Caractérisation des fautes induites par clock-glitch par comparaison avec l’injection laser]]                       |
-|        | Loïc Mangin (CEA)                    | [[#mangin][FD-SOI rather than Bulk - Further experimental investigation of laser induced fault mechanisms in FD-SOI]]                |
-|        | Aghiles Douadi (TIMA)                | [[#douadi][Laser Fault Injection on RO-based PUFs Implemented on FPGA]]                                                              |
-| 16h50  | Comité d'organisation                | Mot de clôture de la journée                                                                                                         |
-| 19h00… |                                      | [[./infos-pratiques.html#social-event][social event]]                                                                                |
+| 09h00  |                              | Accueil café - badges                                                                                                     |
+| 09h30  | Damien Couroussé (CEA)       | Ouverture de la journée & mot d'accueil                                                                                   |
+| 09h45  |                              | *Session 1 -- Systems on Chips*                                                                                             |
+|        | Pascal Nasahl (lowRisc)      | [[#nasahl][OpenTitan's Hardware Security Analysis Framework]]                                                                          |
+|        | Soline Casavecchia (CEA)     | [[#casavecchia][Laser Fault Injection Exploration on System-on-Chip]]                                                                       |
+|        | Ambre Iooss (Synacktiv)      | [[#iooss][Passage à l'échelle des campagnes de simulations d’injections de fautes]]                                                   |
+| 10h55  |                              | Pause café - [[#posters][posters and demos]]                                                                                            |
+| 11h40  |                              | *Session 2 -- Systems and Countermeasures*                                                                                  |
+|        | Régis Leveugle (TIMA)        | [[#leveugle][Protection contre les fautes : est-ce bien toujours une bonne action pour la sécurité ?]]                                   |
+|        | Bruno Ferres (Verimag)       | [[#ferres][Using a Vulnerability Assessment Methodology to build and improve Countermeasures against Multi-Fault Injection]]           |
+|        | Marie-Laure Potet (Verimag)  | [[#potet][Sécurisation des applications contre les attaques en fautes : retour sur quelques challenges]]                              |
+| 12h40  |                              | Déjeuner      - [[#posters][posters and demos]]                                                                                         |
+| 14h00  |                              | *Session 3 -- Security Evaluation*                                                                                          |
+|        | Géraldine Avoué (ANSSI)      | [[#avoue][Les attaques matérielles dans le cadre de la certification Critères Communs]]                                               |
+|        | Alex Charlès (U. Luxembourg) | [[#charles][Haystack ciphers : White-box countermeasures as Symmetric encryption]]                                                      |
+|        | Idris Raïs-Ali (SecureIC)    | [[#rais][When Is It an Attack? Distinguishing Fault Injection perturbation from Environmental Effects in FPGA-based Digital Sensor]] |
+| 15h10  |                              | Pause café - [[#posters][posters and demos]]                                                                                            |
+| 15h50  |                              | *Session 4 -- Laser and Caracterization*                                                                                    |
+|        | Ludovic Claudepierre (IETR)  | [[#claudepierre][Caractérisation des fautes induites par clock-glitch par comparaison avec l’injection laser]]                               |
+|        | Loïc Mangin (CEA)            | [[#mangin][FD-SOI rather than Bulk - Further experimental investigation of laser induced fault mechanisms in FD-SOI]]                  |
+|        | Aghiles Douadi (TIMA)        | [[#douadi][Laser Fault Injection on RO-based PUFs Implemented on FPGA]]                                                                |
+| 16h50  | Comité d'organisation        | Mot de clôture de la journée                                                                                              |
+| 19h00… |                              | [[./infos-pratiques.html#social-event][social event]]                                                                                                              |
 
 *Posters*
 
@@ -61,8 +61,7 @@ Pascal Nasahl is a senior security engineer at lowRISC C.I.C., where he speciali
 :CUSTOM_ID: avoue
 :END:
 
-*Géraldine Avoué*  (Centre de Certification, ANSSI),
-*Loïc Besson* (Centre de Certification, ANSSI)
+*Géraldine Avoué*  (Centre de Certification, ANSSI)
 
 *Résumé*.
 Cette présentation vise à décrire le processus de certification des produits de sécurité dans le cadre du schéma des Critères Communs, les interactions entre les différents acteurs et les accords de reconnaissance de ce schéma. L’objectif est de pouvoir préciser les aspects techniques, en lien avec le thème des attaques matérielles (en se focalisant plus précisément sur les attaques par perturbation) qui sont utilisées et étudiées lors d’une évaluation. Ce processus de certification sera décrit au travers d’un produit fictif soumis au risque des attaques par injection de faute.
