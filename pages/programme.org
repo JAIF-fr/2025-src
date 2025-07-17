@@ -65,7 +65,7 @@ Pascal Nasahl is a senior security engineer at lowRISC C.I.C., where he speciali
 *Loïc Besson* (Centre de Certification, ANSSI)
 
 *Résumé*.
-à venir.
+Cette présentation vise à décrire le processus de certification des produits de sécurité dans le cadre du schéma des Critères Communs, les interactions entre les différents acteurs et les accords de reconnaissance de ce schéma. L’objectif est de pouvoir préciser les aspects techniques, en lien avec le thème des attaques matérielles (en se focalisant plus précisément sur les attaques par perturbation) qui sont utilisées et étudiées lors d’une évaluation. Ce processus de certification sera décrit au travers d’un produit fictif soumis au risque des attaques par injection de faute.
 
 *Bio*.
 à venir.
