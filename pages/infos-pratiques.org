@@ -2,15 +2,11 @@
 #+OPTIONS: toc:nil
 #+title: JAIF 2025
 
+Date: le [[./index.html][mer. 1er octobre, de 09h00 à 17h00]] (suivi du [[#social-event][social event]])
 
-* Informations pratiques
+** Accès
 
-La journée se tiendra à la maison Minatec.
-
-
-Date:  la journée aura lieu le [[./index.html][mer. 1er octobre, de 09h00 à 17h00]].
-
-Lieu: Maison Minatec.  3 Parvis Louis Néel - 38054 Grenoble.
+Lieu: *Maison Minatec.  3 Parvis Louis Néel - 38054 Grenoble*.
 [[https://www.minatec.org/fr/plan-dacces/][Plan d'accès.]]
 
 Depuis la gare SCNF, l'accès à la maison Minatec peut se faire en
@@ -20,12 +16,19 @@ tramway (5 min.), à pied (10 min.) ou en taxi (5 min.).
 <p><img class="pure-img" src="media/Minatec-acces.png" /></p>
 #+END_EXPORT
 
-# ** Social Event
-# :PROPERTIES:
-# :CUSTOM_ID: social event
-# :END:
+** Social Event
+:PROPERTIES:
+:CUSTOM_ID: social-event
+:END:
 
-# Le /social event/ aura lieu
-# de 17h30 à 19h00
-# au Ti'bar, bar associatif des étudiants de l'école des Mines.
-# Le bar est situé en face du CMP,
+Le /social event/ aura lieu
+à partir de 19h00 à *la Bastille, salle Lesdiguières*.
+
+Accès : depuis la [[https://bastille-grenoble.fr/comment-venir][gare du téléphérique]],
+*3 quai Stéphane Jay, 38000 Grenoble*.
+
+Le badge qui vous sera remis en début de journée sert de contre-marque pour l'accès au téléphérique.
+
+#+BEGIN_EXPORT html
+<p><img class="pure-img" src="media/accès téléphérique.png" /></p>
+#+END_EXPORT
