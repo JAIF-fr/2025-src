@@ -10,7 +10,7 @@ Lieu: *Maison Minatec.  3 Parvis Louis Néel - 38054 Grenoble*.
 [[https://www.minatec.org/fr/plan-dacces/][Plan d'accès.]]
 
 Depuis la gare SCNF, l'accès à la maison Minatec peut se faire en
-tramway (5 min.), à pied (10 min.) ou en taxi (5 min.).
+tramway (5 min., arrêt Cité Internationale), à pied (10 min.) ou en taxi (5 min.).
 
 #+BEGIN_EXPORT html
 <p><img class="pure-img" src="media/Minatec-acces.png" /></p>
@@ -25,9 +25,18 @@ Le /social event/ aura lieu
 à partir de 19h00 à *la Bastille, salle Lesdiguières*.
 
 Accès : depuis la [[https://bastille-grenoble.fr/comment-venir][gare du téléphérique]],
-*3 quai Stéphane Jay, 38000 Grenoble*.
+*3 quai Stéphane Jay, 38000 Grenoble* (tram : arrêt Victor Hugo)
+
+Compter environ 20 min. de montée depuis la gare basse du téléphérique (queue + trajet téléphérique).
 
 Le badge qui vous sera remis en début de journée sert de contre-marque pour l'accès au téléphérique.
+
+Descente en téléphérique jusqu'à 24h.
+
+Possibilité de monter à la Bastille à l'avance et de faire un petit tour (point de vue sur Grenoble depuis la [[https://www.google.com/maps/place/Table+d'orientation+de+Bastille/@45.1985606,5.724704,19.46z/data=!4m14!1m7!3m6!1s0x478af4877b3821c3:0xd95bd36f85694a80!2sPorte+de+France!8m2!3d45.193596!4d5.7194346!16s%2Fg%2F120x759n!3m5!1s0x478af50e0fd40f21:0x2e9e9b02b56a5577!8m2!3d45.1987195!4d5.7253272!16s%2Fg%2F11vhts1xpf?entry=ttu&g_ep=EgoyMDI1MDgyNS4wIKXMDSoASAFQAw%3D%3D][terrasse du restaurant]], [[https://www.grenoble-tourisme.com/fr/catalogue/detail/grottes-de-mandrin-6774225][grottes de Mandrin]], ...).
+
+Possibilité de monter à pied depuis [[https://www.google.com/maps/place/Fontaine+au+Lion/@45.1951983,5.7285918,19.04z/data=!4m14!1m7!3m6!1s0x478af4877b3821c3:0xd95bd36f85694a80!2sPorte+de+France!8m2!3d45.193596!4d5.7194346!16s%2Fg%2F120x759n!3m5!1s0x478af4618a332dcd:0x4f66a9d5dc3d29d7!8m2!3d45.1949447!4d5.7285594!16s%2Fg%2F11c54cvcrc?entry=ttu&g_ep=EgoyMDI1MDgyNS4wIKXMDSoASAFQAw%3D%3D][la fontaine au Lion]] ou depuis la [[https://www.google.com/maps/place/Porte+de+France/@45.1949342,5.7187909,17z/data=!4m6!3m5!1s0x478af4877b3821c3:0xd95bd36f85694a80!8m2!3d45.193596!4d5.7194346!16s%2Fg%2F120x759n?entry=ttu&g_ep=EgoyMDI1MDgyNS4wIKXMDSoASAFQAw%3D%3D][porte de France]] (compter 1h).
+
 
 #+BEGIN_EXPORT html
 <p><img class="pure-img" src="media/accès téléphérique.png" /></p>
