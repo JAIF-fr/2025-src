@@ -225,6 +225,7 @@ After a PhD in electromagnetism and high frequency system at INP Toulouse, he di
 *Loïc Mangin*  (CEA LETI),
 Laurent Maingault (CEA LETI),
 Romain Wacquez (CEA LETI / IMT Saint Etienne),
+Adrià Calvo Bellocq (CEA LETI),
 Krishna Pradeep (SOITEC),
 Philippe Flatresse (SOITEC),
 Rainer Lutz (SOITEC)
