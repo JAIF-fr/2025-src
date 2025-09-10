@@ -88,9 +88,10 @@ data-align="center" height="100" /></a>
 
      
 <a href="https://gdr-securite.irisa.fr">
-<img src="./media/GDR_logo_04-vecto-01.png" alt="Logo GDR sécurité"
-alt="Logo CNRS"
-title="CNRS"
+<img src="./media/GDR_logo_04-vecto-01.png"
+alt="Logo GDR sécurité"
+title="GDR sécurité"
+data-align="center" height="100" /></a>
 data-align="center" height="100" /></a>
 
 </p>
