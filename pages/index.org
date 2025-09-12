@@ -105,6 +105,7 @@ data-align="center" height="100" /></a>
 #+END_EXPORT
 
 et est sponsorisée par
+[[https://www.alphanov.com/produits-services/solutions-laser-test-de-circuits-integres][ALPhANOV]],
 l'[[https://www.ssi.gouv.fr/][ANSSI]],
  [[https://www.brightsight.com][Brightsight]],
  [[https://eshard.com][eShard]],
@@ -112,6 +113,11 @@ l'[[https://www.ssi.gouv.fr/][ANSSI]],
 
 #+BEGIN_EXPORT html
 <center>
+
+<a href="https://www.alphanov.com/produits-services/solutions-laser-test-de-circuits-integres">
+<img src="./media/Alphanov.png" alt="Logo ALPhANOV" title="ALPhANOV" data-align="center" height="80" /></a>
+
+     
 <a href="https://cyber.gouv.fr">
 <img src="./media/ANSSI_Logo.svg" alt="Logo ANSSI" title="ANSSI" data-align="center" height="120" /></a>
 
