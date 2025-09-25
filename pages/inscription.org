@@ -2,18 +2,22 @@
 #+OPTIONS: toc:nil
 #+title: JAIF
 
-# - [2023-09-05 mar.]  Il n'y a plus de places pour une participation en présentiel !  Une liste d'attente est ouverte dans le formulaire d'inscription ci-dessous.
+Les inscriptions sont closes.
 
-*La participation à la journée est gratuite mais l'inscription est
-obligatoire* pour l'organisation logistique de la journée.  Le nombre
-de participants en présentiel est limité par la capacité d'accueil de
-la salle.
+Vous pouvez toujours vous inscrire pour une participation à distance : [[mailto:jaif@saxifrage.saclay.cea.fr?subject=%5Binscription%5D][envoyez-nous un mail]] de demande de participation.  Nous enverrons par mail les informations de connexion quelques heures avant le début de la journée.
 
-Pour les participations à distance, nous enverrons le lien de visio quelques jours avant la journée.
+Contact : [[mailto:jaif@saxifrage.saclay.cea.fr?subject=%5Binscription%5D][jaif@saxifrage.saclay.cea.fr]]
 
-#+begin_export html
-<iframe src="https://framaforms.org/jaif-2025-1751984527" style="overflow: hidden" width="100%" height="1024" style="border:none"></iframe>
-#+end_export
+# *La participation à la journée est gratuite mais l'inscription est
+# obligatoire* pour l'organisation logistique de la journée.  Le nombre
+# de participants en présentiel est limité par la capacité d'accueil de
+# la salle.
 
-Si le formulaire d'inscription ne s'affiche pas correctement ci-dessous,
-[[https://framaforms.org/jaif-2025-1751984527][vous pouvez également le retrouver ici]].
+# Pour les participations à distance, nous enverrons le lien de visio quelques jours avant la journée.
+
+# #+begin_export html
+# <iframe src="https://framaforms.org/jaif-2025-1751984527" style="overflow: hidden" width="100%" height="1024" style="border:none"></iframe>
+# #+end_export
+
+# Si le formulaire d'inscription ne s'affiche pas correctement ci-dessous,
+# [[https://framaforms.org/jaif-2025-1751984527][vous pouvez également le retrouver ici]].
