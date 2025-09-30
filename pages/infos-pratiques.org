@@ -7,13 +7,17 @@ Date: le [[./index.html][mer. 1er octobre, de 09h00 à 17h00]] (suivi du [[#soci
 ** Accès
 
 Lieu: *Maison Minatec.  3 Parvis Louis Néel - 38054 Grenoble*.
-[[https://www.minatec.org/fr/plan-dacces/][Plan d'accès.]]
+[[https://maps.app.goo.gl/Vr4MRayoYHdRegjM8][45°11'44.4"N 5°42'35.8"E / google maps]].
 
 Depuis la gare SCNF, l'accès à la maison Minatec peut se faire en
 tramway (5 min., arrêt Cité Internationale), à pied (10 min.) ou en taxi (5 min.).
 
 #+BEGIN_EXPORT html
 <p><img class="pure-img" src="media/Minatec-acces.png" /></p>
+#+END_EXPORT
+
+#+BEGIN_EXPORT html
+<p><img class="pure-img" src="media/Minatec-entrance.jpg" /></p>
 #+END_EXPORT
 
 ** Social Event
