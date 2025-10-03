@@ -9,7 +9,7 @@
 | 09h30  | Damien Couroussé (CEA)       |          | Ouverture de la journée & mot d'accueil                                                                                   |
 | 09h45  |                              |          | *Session 1 -- Systems on Chips*                                                                                             |
 |        | Pascal Nasahl (lowRisc)      | [[[file:media/JAIF2025-Nasahl.pdf][slides]]] | [[#nasahl][OpenTitan's Hardware Security Analysis Framework]]                                                                          |
-|        | Soline Casavecchia (CEA)     |          | [[#casavecchia][Laser Fault Injection Exploration on System-on-Chip]]                                                                       |
+|        | Soline Casavecchia (CEA)     | [[[file:media/JAIF2025-Casavecchia.pdf][slides]]] | [[#casavecchia][Laser Fault Injection Exploration on System-on-Chip]]                                                                       |
 |        | Ambre Iooss (Synacktiv)      |          | [[#iooss][Passage à l'échelle des campagnes de simulations d’injections de fautes]]                                                   |
 | 10h55  |                              |          | Pause café - [[#posters][posters and demos]]                                                                                            |
 | 11h40  |                              |          | *Session 2 -- Systems and Countermeasures*                                                                                  |
