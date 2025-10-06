@@ -10,7 +10,7 @@
 | 09h45  |                              |          | *Session 1 -- Systems on Chips*                                                                                             |
 |        | Pascal Nasahl (lowRisc)      | [[[file:media/JAIF2025-Nasahl.pdf][slides]]] | [[#nasahl][OpenTitan's Hardware Security Analysis Framework]]                                                                          |
 |        | Soline Casavecchia (CEA)     | [[[file:media/JAIF2025-Casavecchia.pdf][slides]]] | [[#casavecchia][Laser Fault Injection Exploration on System-on-Chip]]                                                                       |
-|        | Ambre Iooss (Synacktiv)      |          | [[#iooss][Passage à l'échelle des campagnes de simulations d’injections de fautes]]                                                   |
+|        | Ambre Iooss (Synacktiv)      | [[[file:media/JAIF2025-Iooss.pdf][slides]]] | [[#iooss][Passage à l'échelle des campagnes de simulations d’injections de fautes]]                                                   |
 | 10h55  |                              |          | Pause café - [[#posters][posters and demos]]                                                                                            |
 | 11h40  |                              |          | *Session 2 -- Systems and Countermeasures*                                                                                  |
 |        | Régis Leveugle (TIMA)        | [[[file:media/JAIF2025-Leveugle.pdf][slides]]] | [[#leveugle][Protection contre les fautes : est-ce bien toujours une bonne action pour la sécurité ?]]                                   |
